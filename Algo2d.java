@@ -4,7 +4,7 @@ public class Algo2d {
         for(int[] x : array){
             for(int y : x){
                 if(y > highest){
-                    y = highest;
+                    highest = y;
                 }
             }
         }
